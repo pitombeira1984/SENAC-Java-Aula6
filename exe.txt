@@ -1,0 +1,74 @@
+1. O que é uma linguagem de programação? Por que Java é considerada multiplataforma?
+
+Uma linguagem de programação é um conjunto de regras e instruções usado para escrever programas que o computador consegue entender e executar. Java é considerado multiplataforma porque ela roda em diferentes sistemas operacionais.
+
+2. Descreva o ciclo de desenvolvimento de um programa em Java (escrever código-fonte,
+compilar e executar).
+
+package Exercicios;
+
+public class exe01_CodigoFonte {
+
+	public static void main(String[] args) {
+
+		System.out.println("Olá mundo");
+
+	}
+
+}
+
+3. Conceitue os termos: máquina virtual Java (JVM), bytecode e JDK.
+
+📌 1. JVM (Java Virtual Machine)
+
+A Java Virtual Machine é um ambiente virtual que executa programas Java.
+
+👉 Função:
+
+Interpretar o bytecode
+Fazer o programa rodar no sistema operacional
+
+💡 Em outras palavras:
+A JVM é quem “traduz” o código Java para algo que o computador entende.
+
+📌 2. Bytecode
+
+O bytecode é o código intermediário gerado quando você compila um programa Java.
+
+👉 Fluxo:
+
+Código Java (.java) → compilação → Bytecode (.class) → JVM executa
+
+👉 Características:
+
+Não depende do sistema operacional
+Pode rodar em qualquer máquina que tenha JVM
+
+💡 É isso que torna o Java multiplataforma.
+
+📌 3. JDK (Java Development Kit)
+
+O Java Development Kit é o conjunto de ferramentas usado para desenvolver aplicações em Java.
+
+👉 Ele inclui:
+
+Compilador (javac)
+JVM
+Bibliotecas padrão
+Ferramentas de desenvolvimento
+
+💡 Resumindo:
+
+JVM → executa
+Bytecode → código intermediário
+JDK → ferramentas para criar programas
+
+🧠 Resumo rápido (estilo prova):
+JVM: ambiente que executa programas Java
+Bytecode: código intermediário gerado na compilação
+JDK: conjunto de ferramentas para desenvolvimento Java
+
+4. Por que é importante adotar boas práticas de indentação e comentários desde o primeiro
+programa em Java?
+
+Adotar boas práticas de indentação e comentários em Java é essencial porque melhora a qualidade, organização e manutenção do código.
